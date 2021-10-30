@@ -1,3 +1,4 @@
+#!/bin/bash
 #!/usr/bin/bash
 #!/usr/bin/bash -ux
 #  vim:fileencoding=utf-8:ff=unix
@@ -16,7 +17,7 @@ cd $(dirname $0);
 
 
 
-udo systemctl restart chrony
+sudo systemctl restart chrony
 for i in 6
 do
     chronyc sources
