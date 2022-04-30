@@ -31,6 +31,10 @@ chronyc sources
 sleep 1
 chronyc sources
 
+
+sudo apt update
+sudo apt upgrade -y
+
 #############################################
 # Ubuntu install of ROS Melodic
 # http://wiki.ros.org/melodic/Installation/Ubuntu
